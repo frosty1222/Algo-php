@@ -1,0 +1,20 @@
+{
+    "name": "oop_in_php/algo-php",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "d",
+    "authors": [
+      {
+        "name": "dong",
+        "email": "lovandong342@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "algo\\": "app/"
+      }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.1"
+    }
+}
