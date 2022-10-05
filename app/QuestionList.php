@@ -20,9 +20,9 @@ class QuestionList{
   public function all(){
     $qlist =$this->questionlist;
     if($qlist!=Null){
-      dump($qlist);
+      return $qlist;
     }else{
-      return 'nothing to show';
+      return false;
     }
 
   }
